@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 .main-conatiner{
@@ -22,7 +23,7 @@ body{
 
 .row1 .header{
     flex-basis: 110px;
-    padding: 0.5px 6.5vw;
+    margin: 0.5px 6.5vw;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -102,19 +103,39 @@ a{
 
 .row2{
     flex-basis: 200px;
-    align-items: center;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding: 50px 107px 50px 107px; 
+    justify-content: center;
+    align-items: center;
+    margin: 10px 130px; 
 }
 
 .row2 .statistic{
     flex-basis: 235px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0px 40px;
 }
+
+.statistic .item{
+    flex-basis: 300px;
+    text-align: center;
+}
+
+.item h1{
+    color: #0d0;
+    font-weight: bold;
+    font-size: 53px;
+}
+
+.item p{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
 
 
 
