@@ -323,7 +323,7 @@ a{
 .funding-partners__title, .funding-partners__images, .horizontal-rule, .strategic-partners__title, .strategic-partners__images{
     font-size: 2.2vw;
     text-align: center;
-    padding: 25px 5px;
+    padding: 25px 50px;
 }
 
 .strategic-partners__images{
@@ -337,6 +337,76 @@ a{
     margin: 0;
 }
 
+.strategic-partners__images .image-div{
+    width: 280px;
+}
+
+.row10{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e6e6;
+    padding: 50px 150px;
+}
+
+.row10 .subscribe{
+    text-align: center;
+    font-size: 2.2vw;
+}
+
+.subscribe h3{
+    font-weight: lighter;
+    margin: 0;
+}
+
+.subscribe .subscribe-button{
+    color: white;
+    background-color: black;
+    padding: 15px 25px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 1.4vw;
+    margin: 25px 0;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 30px 100px;
+    font-size: 1.1em;
+}
+
+.privacy-policy{
+    text-align: center;
+}
+
+.copyright{
+    text-align: center;
+    color: white;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.socials a{
+    display: block;
+    margin: 0 10px;
+    color: white;
+}
+
+.privacy-policy a{
+    color: #0d0;
+    text-decoration: underline;
+}
 
 
 
