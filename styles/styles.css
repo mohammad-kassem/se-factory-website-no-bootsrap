@@ -13,12 +13,11 @@ body{
 
 
 .row1{
-    flex-basis: 1000px;
+    flex-basis: 100% 500px;
     background-image: url(../assets/presentation.JPG);
-    background-size: 100%;
     background-size: cover;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-end;
 }
 
 .row1 .header{
@@ -35,13 +34,14 @@ body{
     flex-basis: 762px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: flex-end;
 }
 
 .navigation .navigation-item{
     height: 36.5px;
-    padding: 10px 10px;
+    padding: 0 10px;
     text-align: center;
     line-height: 36.5px;
     
@@ -107,7 +107,7 @@ a{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 10px 130px; 
+    margin: 5px 130px; 
 }
 
 .row2 .statistic{
@@ -116,7 +116,7 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0px 30px;
+    padding: 0px 70px;
 }
 
 .statistic .item{
@@ -134,6 +134,60 @@ a{
     font-size: 24px;
     font-weight: bold;
 }
+
+.row3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 35px 100px;
+}
+
+.row3 .artboard1, .row3 .learn-text {
+    width: 50%;
+    margin: 0 5px;
+}
+
+.row3 .learn-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 1.6em;
+}
+
+.learn-text .learn-text__title{
+    margin: 0;
+    padding: 2% 0 2% 0;
+    transform: scaleY(1.5);
+} 
+
+.learn-text .learn-text__disc{
+    flex-basis: 150px;
+    padding: 0 15% 0 5%;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.learn-text .learn-text__learn-more{
+    flex-basis: 24px;
+    padding-left: 5%;
+    font-size: 0.7em;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.learn-text__title h2{
+    font-weight: normal;
+    margin: 0;
+}
+
+.learn-text__learn-more a{
+    color: #0d0;
+    text-decoration: underline;
+}
+
+
 
 
 
