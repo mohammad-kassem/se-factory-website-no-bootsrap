@@ -281,25 +281,24 @@ a{
 .row8{
     display: flex;
     flex-direction: column;
-    padding: 50px 100px;
+    padding: 50px 50px;
     justify-content: center;
-    align-items: flex-start;
+    align-items: space-evenly;
     background: #e6e6e6;
 }
 
 .media-title{
     text-align: center;
     font-size: 2.2vw;
-    margin: 0 35%;
 }
 
 
 .media-images-1, .media-images-2{
-    padding: 25px 5.5%;
+    padding: 25px 5px;
     text-align: center;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -308,7 +307,7 @@ a{
     text-align: center;
 }
 
-.media-images-1 a, .media-images-2 a{
+a {
     display: block;
     width: 280px;
 }
