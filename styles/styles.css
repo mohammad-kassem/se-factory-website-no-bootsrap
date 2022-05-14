@@ -307,10 +307,37 @@ a{
     text-align: center;
 }
 
-a {
+.media-images-1 a, .media-images-2 a{
     display: block;
     width: 280px;
 }
+
+.row9{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+.funding-partners__title, .funding-partners__images, .horizontal-rule, .strategic-partners__title, .strategic-partners__images{
+    font-size: 2.2vw;
+    text-align: center;
+    padding: 25px 5px;
+}
+
+.strategic-partners__images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.funding-partners__title h3, .strategic-partners__title h3{
+    margin: 0;
+}
+
+
 
 
 
