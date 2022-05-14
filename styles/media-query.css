@@ -23,7 +23,6 @@
     .row3{
         flex-direction: column;
         margin: 80px 40px;
-        width: auto;
     }
 
     .learn-text h2{
@@ -34,16 +33,12 @@
     .learn-text p{
         font-size: 3.5vw;
         margin: 15px 5%;
-        line-height: 1.6;
     }
     
     
     .learn-text a{
         font-size: 2.8vw;
-        font-weight: lighter;
         margin: 15px 5%;
-        color: #0d0;
-        text-decoration: underline;
     }
 
     .row4 {
