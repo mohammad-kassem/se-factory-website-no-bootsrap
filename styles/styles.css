@@ -75,7 +75,7 @@ a{
     color: white;
     width: 50%;
     text-align: left;
-    font-size: 1.6em;
+    font-size: 1.5em;
     padding-top: 0;
     padding-bottom: 0;
 }
@@ -85,24 +85,23 @@ a{
 }
 
 .text p{
-    margin-block-start: 0;
-    margin-block-end: 0;
     padding: 0;
 }
 
 .learn-button{
+    color: white;
     background-color: #0d0;
     padding: 10px 20px;
+    margin: 17px 0 17px 0;
     border: 0px;
     border-radius: 5px;
-    font-size: 1em;
+    font-size: 0.8em;
     font-weight: bold;
     
 }
 
 
 .row2{
-    flex-basis: 200px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -111,7 +110,6 @@ a{
 }
 
 .row2 .statistic{
-    flex-basis: 235px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -120,7 +118,6 @@ a{
 }
 
 .statistic .item{
-    flex-basis: 300px;
     text-align: center;
 }
 
@@ -149,11 +146,6 @@ a{
     font-size: 3.25vw;
 }
 
-.row3 .learn-text{
-    font-size: 3.25vw;
-    font-weight: normal;
-    margin: 0 0 25px 0;
-}
 
 .learn-text h2{
     font-size: 3.25vw;
@@ -205,7 +197,6 @@ a{
     margin: 0;
     text-align: center;
     width: 50%;
-    flex-basis: 50%;
 }
 
 .row5{
@@ -401,22 +392,3 @@ a{
     color: #0d0;
     text-decoration: underline;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,0 +1,66 @@
+/* media query for website responsiveness on small devices */
+@media only screen and (max-width: 728px) {
+    .desc .text{
+        width: 100%;
+    }
+
+    .row2{
+        flex-direction: column;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    
+
+    .item h1{
+        font-size: 35px;
+    }
+
+    .item p{
+        font-size: 20px;
+    } 
+
+
+    .row3{
+        flex-direction: column;
+        margin: 80px 40px;
+        width: auto;
+    }
+
+    .learn-text h2{
+        font-size: 4.5vw;
+        margin: 25px 0 25px 0;
+    }
+    
+    .learn-text p{
+        font-size: 3.5vw;
+        margin: 15px 5%;
+        line-height: 1.6;
+    }
+    
+    
+    .learn-text a{
+        font-size: 2.8vw;
+        font-weight: lighter;
+        margin: 15px 5%;
+        color: #0d0;
+        text-decoration: underline;
+    }
+
+    .row4 {
+        font-size: 1.1em;
+        padding: 4% 0;
+    }
+
+    .row4 h2{
+        transform: scaleY(1);
+    }
+
+    .row4 .programs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .program-image{
+        width: 150%;
+    }
+}
