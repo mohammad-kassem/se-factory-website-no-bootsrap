@@ -248,20 +248,27 @@ a{
 }
 
 .rp-title h4{
-    margin: 0;
+    margin: 0 20% 0 20%;
     font-weight: normal;
     transform: scaleY(1.1);
 }
 
 .rp-text p{
-    font-size: 1.25vw;
+    font-size: 1.8vw;
     padding: 0;
 }
+
 
 .row7{
     margin: 0 160px;
     text-align: center;
 }
+
+.review-center{
+    width: 70%;
+    height: auto;
+}
+
 
 .row8{
     display: flex;
@@ -323,7 +330,7 @@ a{
 }
 
 .strategic-partners__images .image-div{
-    width: 280px;
+    width: 300px;
 }
 
 .row10{

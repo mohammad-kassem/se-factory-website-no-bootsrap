@@ -58,4 +58,127 @@
     .program-image{
         width: 150%;
     }
+
+    
+    .row5{
+        flex-direction: column;
+        margin: 80px 40px;
+    }
+
+    .graduate-text h2{
+        font-size: 4.5vw;
+        margin: 25px 0 25px 0;
+    }
+    
+    .graduate-text p{
+        font-size: 3.5vw;
+        margin: 15px 5%;
+    }
+    
+    
+    .graduate-text a{
+        font-size: 2.8vw;
+        margin: 15px 5%;
+    } 
+    
+    .row6{
+        margin: 0 5% 50px 5%;
+        font-size: 1.5em;
+    }
+
+    .rp-title h4{
+        margin: 0 0 25px 0;
+    }
+
+    .rp-text p{
+        font-size: 0.8em;
+        margin: 5% 5% 5% 5%;
+    }
+
+    .row7{
+        margin: 0 5% 0 5%;
+    }
+
+    .review-center{
+        width: 100%;
+    }
+
+    .row8{
+        padding: 25px 50px;
+    }
+
+    .media-title{
+        font-size: 1.5em;
+    }
+
+    .media-images-1, .media-images-2{
+        flex-direction: column;
+    }
+
+    .media-images-1 a, .media-images-2 a{
+        display: block;
+        width: 100%;
+    }
+
+    .row9{
+        padding: 25px 0;
+
+    }
+
+    .funding-partners__title, .funding-partners__images, .horizontal-rule, .strategic-partners__title, .strategic-partners__images{
+        font-size: 1.5em;
+        padding: 25px 0;
+    }
+
+    .strategic-partners__images{
+        flex-direction: column;
+
+    }
+
+    .strategic-partners__images .image-div{
+        width: 100%;
+    }
+
+    .row10{
+        padding: 50px 25px;
+    }
+
+    .row10 .subscribe{
+        font-size: 1.4em;
+
+    }
+
+    .subscribe .subscribe-button{
+        font-size: 0.8em;
+    }
+
+    .footer{
+        padding: 0;
+        background-color: black;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    .privacy-policy{
+        text-align: left;
+        margin: 15px 15px;
+        padding: 0;
+    }
+    
+    .copyright{
+        text-align: center;
+    }
+    
+    .socials{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: right;
+        margin: 15px 15px;
+        padding: 0;
+    }
+
+
 }
