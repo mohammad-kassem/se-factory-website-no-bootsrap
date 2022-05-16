@@ -14,7 +14,7 @@ body{
 
 .row1{
     flex-basis: 100% 500px;
-    background-image: url(../assets/presentation.JPG);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../assets/presentation.JPG);
     background-size: cover;
     flex-direction: column;
     justify-content: flex-end;
@@ -48,12 +48,13 @@ body{
 }
 
 a{
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 1.05em;
     font-weight: bolder;
 }
 .apply-button{
+    color: white;
     background-color: #0d0;
     padding: 10px 20px;
     border: 0px;
@@ -99,6 +100,7 @@ a{
     font-weight: bold;
     
 }
+
 
 
 .row2{
@@ -264,7 +266,7 @@ a{
     text-align: center;
 }
 
-.review-center{
+.review-image{
     width: 70%;
     height: auto;
 }
@@ -373,7 +375,7 @@ a{
 }
 
 .privacy-policy{
-    text-align: center;
+    text-align: left;
 }
 
 .copyright{
@@ -386,7 +388,7 @@ a{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    text-align: center;
+    text-align: right;
 }
 
 .socials a{
